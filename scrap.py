@@ -44,5 +44,4 @@ def scrape_books(url):
 book = scrape_books(url)
 
 with open("book.json","w") as f:
-    import json
-    json.dumps(book, f, indent=2)
+    f.write(json_data)
