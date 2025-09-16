@@ -45,3 +45,17 @@ book = scrape_books(url)
 
 with open("book.json","w") as f:
     f.write(json_data)
+
+
+    #git config --global user.name "kirankhatri-prog"
+    #git config --global user.email "officialkiran40@gmail.com"
+    #git init
+    #git status
+    #git add .
+    #git commit -m "Finish Project"
+    # git status
+    #git diff
+    # git commit -m "Remove extra line"
+    #git remote add origin https://github.com/kirankhatri-prog/Python-Book-Scrapper.git
+    #git branch -M main
+    #git push -u origin main
